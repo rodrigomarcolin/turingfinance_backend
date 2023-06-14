@@ -75,6 +75,8 @@ Dessa forma, a lógica e as validações específicas da área Quant foram isola
 2. Definição/adaptação de endpoint no Backend que recebe inputs adequados, valida e chama a função de Quant correspondente
 3. Adaptação do FrontEnd para incluir suporte ao novo/modificado endpoint
 
+Dessa maneira, colaboradores que queiram restringir-se somente ao escopo Quant podem dedicar-se à etapa 1. Colaboradores que desejem contribuir com o aspecto Web do sistema podem então realizar as etapas 2 e 3.
+
 ### Comportamento final do sistema
 
 ```mermaid
