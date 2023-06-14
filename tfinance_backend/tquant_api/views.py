@@ -22,7 +22,7 @@ class HistogramView(APIView):
         df = yf.download(ticker, start=ini_date, end=end_date)
         
         plot_div = plot_histogram(df, 'Histograma dos retornos diários')
-
+        
         return Response({'plot': plot_div})
     
 class RollingView(APIView):
