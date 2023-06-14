@@ -66,9 +66,9 @@ python3 manage.py runserver
 
 ## Fluxo de Desenvolvimento
 
-O projeto foi concebido de forma a separar o máximo possível a regra de negócio principal, que é a da área Quant, das demais preocupações relacionadas ao backend em si, como criação de endpoints e tratamento das requisições, bem como as validações dos inputs. 
+O projeto foi concebido de forma a separar o máximo possível a regra de negócio principal, que é a da área Quant, das demais preocupações relacionadas ao Backend em si, como a criação de endpoints e o tratamento das requisições, bem como as validações dos inputs. 
 
-Dessa forma, a lógica e as validações específicas da área Quant foram isoladas, permitindo que sejam tratadas de maneira independente e garantindo uma melhor organização e manutenção do código.
+Dessa forma, a lógica e as validações específicas da área Quant foram isoladas, permitindo que sejam tratadas de maneira independente e garantindo um bom _separation of concerns_.
 
 ### Fluxo do Desenvolvimento
 1. Definição das funções de cálculo de métricas no arquivo [metrics.py](https://github.com/rodrigomarcolin/turingfinance_backend/blob/main/tfinance_backend/tquant_api/metrics.py) e de plotagem de gráficos no arquivo [plots.py](https://github.com/rodrigomarcolin/turingfinance_backend/blob/main/tfinance_backend/tquant_api/plots.py)
